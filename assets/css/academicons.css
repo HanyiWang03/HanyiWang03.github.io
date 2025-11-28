@@ -569,6 +569,6 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
-.profile {
-  margin-left: 60px !important;
+.sidebar {
+  margin-left: 30px !important;   /* 调整数值即可，20–60px 常用 */
 }
