@@ -569,6 +569,10 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
-.sidebar {
-  margin-left: 30px !important;   /* 调整数值即可，20–60px 常用 */
+/* 强制右移左侧栏 */
+.sidebar,
+.col-md-3 {
+    position: relative !important;
+    left: 40px !important;   /* 改这里的数字调整右移距离 */
 }
+
